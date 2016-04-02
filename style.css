@@ -1,0 +1,27 @@
+.board {
+  width: 300px;
+}
+.board td div {
+  height: 10px;
+  width: 10px;
+}
+.board .correct {
+  background-color: #ff6666;
+}
+.board .incorrect {
+  background-color: #6666ff;
+}
+body {
+  padding: 20px;
+}
+#my-board {
+  transform: perspective(500px) rotateX(60deg);
+  transform-origin: 50% 0;
+  box-shadow: 0 5px 8px;
+  margin: 0 auto;
+}
+#my-guesses {
+  transform: perspective(500px);
+  margin: 0 auto;
+  box-shadow: 0 0 8px;
+}
